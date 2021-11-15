@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300&family=Red+Hat+Display:wght@400,500,700,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+
+/* 이 위로 공용 파트 */
+
+.third{
+  padding-top: 120px;
+  background-color: #F3F6F9;
+}
+
+.third .container .title{
+  margin-bottom:30px;
+  font-size: 40px;
+  font-weight: 900;
+  font-family: 'Red Hat Display', sans-serif;
+}
+.subTitle{
+  margin-bottom:10px;
+  font-weight: 700;
+  font-size: 22px;
+}
+.third .container p{
+  font-family: 'Noto Sans KR', sans-serif;
+}
+.itemContainer{
+  margin-top: 30px;
+  height:400px;
+}
+.tr-item-con{
+  margin: 0;
+  width:23%;
+  padding:1%;
+  float: left;
+}
+.tr-item-con:first-child{
+  padding-left:0;
+}
+.tr-item{
+  background-color: #fff;
+  padding: 24px 32px;
+  border-radius: 7px;
+  min-height: 253px;
+}
+.tr-item>ul{
+  list-style:none;
+  padding-left:0px;
+  margin: 0;
+}
+.tr-item * li{
+  font-size: 14px;
+  color: #222;
+  font-weight: 300;
+  line-height: 1.5;
+  font-family: 'Noto Sans KR', sans-serif;
+}
+.item-title{
+  font-size: 20px;
+  color: #333;
+  font-weight: 600;
+  line-height: 1.7;
+  -webkit-font-smoothing: antialiased;
+  text-shadow: rgb(0 0 0 / 0%) 1px 1px 1px;
+  margin-bottom: 0px
+}
+.tr-item p{
+  margin-top:5px;
+  margin-bottom: 0px;
+  font-size: 14px;
+  font-weight: 300;
+  color: #727272
+}

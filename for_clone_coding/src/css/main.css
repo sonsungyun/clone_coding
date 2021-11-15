@@ -1,0 +1,32 @@
+html, html a, h1, h2, h3, h4, h5, h6, a, p, li, dl, th, dt, input, textarea, span, div {
+  -webkit-font-smoothing: antialiased;
+  text-shadow: rgb(0 0 0 / 0%) 1px 1px 1px;
+}
+*{
+  margin: 0;
+  padding: 0;
+}
+ul{
+  padding-inline-start: 0;
+}
+a, li{
+  text-decoration: none;
+}
+.absolute-container{
+  position: absolute;
+  top: 250px;
+  width: 100%;
+}
+.container{
+  width: 1250px;
+  margin: 0 auto;
+  padding: 0 10px;
+  box-sizing: border-box;
+}
+
+/* mediaquery */
+@media (max-width: 1270px) {
+  .container {
+    width: 100%;
+  }
+}

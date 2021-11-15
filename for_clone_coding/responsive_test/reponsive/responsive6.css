@@ -1,0 +1,109 @@
+body{
+  margin: 0;
+  padding: 0;
+}
+#warp{
+  width: 1200px;
+  margin: 0 auto;
+}
+header {
+  width: 100%;
+  height: 100px;
+  background-color: #B2D8F9;
+}
+nav{
+  width: 100%;
+  height: 400px;
+  background-color: #83C4FA;
+}
+aside {
+  width: calc(100%/3);
+  height: 400px;
+  background-color: #56ADF4;
+  float: left;
+}
+section{
+  width: calc(100%/3);
+  float: left;
+}
+.sect1{
+  width: calc(100%/3*2);
+  background-color: #379CF4;
+  height: 200px;
+}
+.sect2{
+  width: calc(100%/3*2);
+  background-color: #158EF2;
+  height: 200px;
+}
+.sect3{
+  background-color: #147FDF;
+  height: 300px;
+}
+.sect4{
+  background-color:#156ECB;
+  height: 300px;
+}
+.sect5{
+  background-color:#105EB7;
+  height: 300px;
+}
+.sect6{
+  width: 100%;
+  padding: 2% 0 2% 0;
+  margin: 0;
+  overflow:hidden;
+  text-align: center;
+  clear: both;
+  background-color: #318AD7;
+}
+.item{
+  margin:1%;
+  width: 23%;
+  height:  calc(1200px*0.2);
+  background-color: #1467BE;
+  float: left;
+  border-radius:20px;
+}
+footer {
+  width: 100%;
+  height: 70px;
+  background-color:#4B96D3;
+  clear: both;
+}
+/*화면 너비 0~1200px*/
+@media (max-width: 1240px){
+  #warp{width: 100%;}
+  .item{width: 28%;
+  margin: 1.5%;}
+  .item:last-child{display: none;}
+  .sect5{display: none;}
+  .sect3, .sect4{ width:50%;}
+  }
+/*화면 너비 0~768px*/
+@media (max-width: 768px){
+  .sect3, .sect4{
+    width:100%;
+    height:160px;
+  }
+  .item{
+    height: calc(760px*0.23);
+    margin: 3%;
+    width: 27%;
+  }
+}
+/*화면 너비 0~480px*/
+@media (max-width: 480px){
+  .item{
+    width:75%; 
+    margin-top: 3%;
+    margin-bottom:3%;
+    margin-left: 12.5%;
+  }
+  .sect6{
+    padding: 3% 0 3% 0;
+  }
+
+  aside{width: 100%; height:120px;}
+  .sect1, .sect2{width: 100%; height:120px;}
+}

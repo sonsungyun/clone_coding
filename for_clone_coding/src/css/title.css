@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300&family=Red+Hat+Display:wght@400,500,700,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+
+/* 이 위로 공용 파트 */
+
+.secondElement{
+  padding-top:70px;
+  width: 100%;
+  background-color: #FFFFFF;
+}
+.slogan{
+  font-family: 'Red Hat Display', sans-serif;
+  font-weight: 500;
+}
+.secondCon{
+  padding-top:15px;
+  padding-bottom:15px;
+}
+.secondCon{
+  font-family: 'Noto Sans KR', sans-serif;
+  font-size: 18px;
+}
+.boldText{
+  font-weight:bold;
+}
+.secondCon .firstP{
+  margin-bottom: 15px;
+}
+.secondCon .secondP{
+  margin-bottom: 70px;
+}
+.secondElement * .slogan{
+  font-size: 42px;
+  margin-bottom: 20px;
+}
+
+.sloganContainer{
+  border-top: 1px solid #dedede;
+  padding-top:45px;
+  padding-bottom:45px;
+  display: flex;
+}
+
+.sloganContainer div:first-child{
+  font-size : 32px;
+  flex-grow: 0;
+  flex-basis: 25%;;
+  font-weight: 900; 
+  font-family: 'Red Hat Display', sans-serif;
+  color: #626262;
+}
+
+.sloganContainer div{
+  max-width: 25%;
+  font-family: 'Noto Sans KR', sans-serif;
+}
+.sloganMission{
+  flex-basis: 25%;
+}
+.sloganContainer .sloganVision{
+  max-width: 75%
+}

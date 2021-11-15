@@ -1,0 +1,18 @@
+<svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg" class="InnerIconstyled__Icon-sc-197h5bb-0 kmnjJw LauncherIconstyled__Bubble-mnslcf-1 cRwgrT" color="#18435d" defaultOpacity="1" hoveredOpacity="1" margintop="0" marginright="0" marginbottom="0" marginleft="0" style="position: absolute;">
+  <g filter="url(#filter0_i)">
+    <path fill="#6E84A4" fill-opacity="0.5" d="M24 6C14.0589 6 6 14.0589 6 24C6 33.9411 14.0589 42 24 42C26.5503 42 28.9767 41.4696 31.175 40.5132C32.4937 39.9394 33.9715 39.7362 35.3397 40.1796L39.7048 41.5942C40.8697 41.9717 41.9717 40.8697 41.5942 39.7048L40.1796 35.3397C39.7362 33.9715 39.9394 32.4937 40.5132 31.175C41.4696 28.9767 42 26.5503 42 24C42 14.0589 33.9411 6 24 6Z">
+    </path>
+  </g>
+  <defs>
+    <filter id="filter0_i" x="4" y="2" width="38" height="40" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feFlood flood-opacity="0" result="BackgroundImageFix"></feFlood>
+      <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"></feBlend>
+      <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"></feColorMatrix>
+      <feOffset dx="-2" dy="-4"></feOffset>
+      <feGaussianBlur stdDeviation="4"></feGaussianBlur>
+      <feComposite in2="hardAlpha" operator="arithmetic" k2="-1" k3="1"></feComposite>
+      <feColorMatrix type="matrix" values="0 0 0 0 0.09411764705882353 0 0 0 0 0.2627450980392157 0 0 0 0 0.36470588235294116 0 0 0 0.2 0"></feColorMatrix>
+      <feBlend mode="normal" in2="shape" result="effect1_innerShadow"></feBlend>
+    </filter>
+  </defs>
+</svg>
