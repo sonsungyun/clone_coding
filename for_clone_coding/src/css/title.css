@@ -43,22 +43,68 @@
   display: flex;
 }
 
-.sloganContainer div:first-child{
+.sloganContainer .slogan-title{
   font-size : 32px;
   flex-grow: 0;
-  flex-basis: 25%;;
+  flex-basis: 25%;
+  max-width: 25%;
   font-weight: 900; 
   font-family: 'Red Hat Display', sans-serif;
   color: #626262;
 }
 
-.sloganContainer div{
+.sloganContainer .sloganMission{
   max-width: 25%;
+  flex-basis: 25%;
   font-family: 'Noto Sans KR', sans-serif;
 }
-.sloganMission{
-  flex-basis: 25%;
-}
+
 .sloganContainer .sloganVision{
-  max-width: 75%
+  max-width: 75%;
+  font-family: 'Noto Sans KR', sans-serif;
+}
+.media-query-div-display{
+  display:none;
+}
+
+@media(max-width:767px) {
+  .secondElement{
+    padding-top:40px;
+  }
+  .secondElement * .slogan{
+    font-size: 26px;
+  }
+  .media-query-div-display{
+    display:block;
+  }
+  .secondCon p{
+    font-size: 14px;
+  }
+  .secondCon .secondP{
+    margin-bottom: 35px;
+  }
+  .media-query-div-hidden{
+    display:none;
+  }
+  .sloganContainer .slogan-title{
+    font-size : 24px;
+  }
+  .sloganContainer{
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  .sloganContainer .sloganVision{
+    display:block;
+    font-size: 14px;
+    max-width: 100%;
+  }
+  .sloganContainer{
+    display: block;
+  }
+  .sloganContainer .sloganMission{
+    max-width:50%;
+    margin-top: 10px;
+    margin-bottom:10px;
+    font-size: 14px;
+  }
 }

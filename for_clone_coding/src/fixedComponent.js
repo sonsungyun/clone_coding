@@ -51,34 +51,39 @@ function FixedComponent(){
       <div className={`another-page-${props.isVisible}`}>
           <div className="content-container">
           <a href="/"  className={`mainLogo-overlay-${props.isVisible}`} ><MainLogo state={props.mainLogo}/></a>
-            <div className="text-area">
-              <ul className="text-list">
-                <li><a href="/" className="text-box"><span className="another-text">ABOUT US</span><span className="hover-text" >회사소개</span></a></li>
-                <li><a href="/" className="text-box"><span className="another-text">ONLINE SERVICE</span><span className="hover-text" >비대면 서비스</span></a></li>
-                <li><a href="/" className="text-box"><span className="another-text">CLIENT</span><span className="hover-text" >함께하는 고객</span></a></li>
-                <li><a href="/" className="text-box"><span className="another-text">BLOG</span><span className="hover-text" >블로그</span></a></li>
-                <li><a href="/" className="text-box"><span className="another-text">CONTACT US</span><span className="hover-text" >문의</span></a></li>
-              </ul>
-            </div>
-            <ul className="icon-container">
-              <li className="icon-box">
-                <img src={facebookIcon} className="icon"/>
-                <img src={facebookIconHover} className="icon-hover"/>
-              </li>
-              <li className="icon-box">
-                <img src={instagramIcon} className="icon-anothertype"/>
-                <img src={instagramIconHover} className="icon-anothertype-hover"/>
-              </li>
-              <li className="icon-box">
-                <img src={youtubeIcon} className="icon-anothertype"/>
-                <img src={youtubeIconHover} className="icon-anothertype-hover"/>
-              </li>
-              <li className="icon-box">
-                <img src={brunchIcon} className="icon"/>
-                <img src={brunchIconHover} className="icon-hover"/>
+          <div className="text-area">
+            <ul className="text-list">
+              <li><a href="/" className="text-box"><span className="another-text">ABOUT US</span><span className="hover-text" >회사소개</span></a></li>
+              <li><a href="/" className="text-box"><span className="another-text">ONLINE SERVICE</span><span className="hover-text" >비대면 서비스</span></a></li>
+              <li><a href="/" className="text-box"><span className="another-text">CLIENT</span><span className="hover-text" >함께하는 고객</span></a></li>
+              <li><a href="/" className="text-box"><span className="another-text">BLOG</span><span className="hover-text" >블로그</span></a></li>
+              <li><a href="/" className="text-box"><span className="another-text">CONTACT US</span><span className="hover-text" >문의</span></a></li>
+              <li>
+                  <ul className="icon-container">
+                    
+                    <li className="icon-box">
+                      <img src={facebookIcon} className="icon"/>
+                      <img src={facebookIconHover} className="icon-hover"/>
+                    </li>
+                    <li className="icon-box">
+                      <img src={instagramIcon} className="icon-anothertype"/>
+                      <img src={instagramIconHover} className="icon-anothertype-hover"/>
+                    </li>
+                    <li className="icon-box">
+                      <img src={youtubeIcon} className="icon-anothertype"/>
+                      <img src={youtubeIconHover} className="icon-anothertype-hover"/>
+                    </li>
+                    <li className="icon-box">
+                      <img src={brunchIcon} className="icon"/>
+                      <img src={brunchIconHover} className="icon-hover"/>
+                    </li>
+                    
+                  </ul>
               </li>
             </ul>
           </div>
+          
+        </div>
       </div>
       )
   }

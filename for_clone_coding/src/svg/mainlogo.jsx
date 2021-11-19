@@ -10,10 +10,13 @@ function MainLogo(props) {
         color1="#FFF";
         color2="#FFF";
     }
+
+
+
     return(
-        <svg xmlns="http://www.w3.org/2000/svg" width="146.085" height="36" viewBox="0 0 146.085 36">
+        <svg xmlns="http://www.w3.org/2000/svg" width="146.085" height="36" viewBox="0 0 146.085 36" className="test-value">
         <g id="LOGO" transform="translate(-40 -30)">
-        <path id="frame" fill="none" d="M0 0H146V36H0z" transform="translate(40 30)"/>
+        <path id="frame" fill="none" d="M0 0H146V36H0z" transform="translate(40 30)" />
         <g id="그룹_5" transform="translate(40 30.897)">
             <g id="그룹_1" transform="translate(0 .002)">
                 <path id="패스_1" d="M332.184 107.819h-15.147a1.893 1.893 0 0 0-1.894 1.894v15.147a1.893 1.893 0 0 0 1.894 1.893h7.573a1.893 1.893 0 1 0 0-3.787h-5.68v-11.36h13.254a1.894 1.894 0 0 0 0-3.787z" fill={color1} transform="translate(-315.143 -107.819)"/>

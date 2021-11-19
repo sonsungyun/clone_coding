@@ -1,7 +1,7 @@
 import AnotherPage from './fixedComponent';
 import Header from './header';
 import Title from './title';
-import Context from './context';
+import Content from './content';
 import ImageSlide from './imageSlide';
 import Footer from './footer';
 import EndBox from './endBox';
@@ -14,7 +14,7 @@ function Clone() {
       <Header/>
       <div className="absolute-container">
         <Title/>
-        <Context/>
+        <Content/>
         <ImageSlide/>
         <Footer/>
         <EndBox/>

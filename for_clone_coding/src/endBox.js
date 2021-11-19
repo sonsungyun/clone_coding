@@ -13,7 +13,7 @@ function EndBox(){
         <div className="left-container">
         COPYRIGHT 2021. CREATIVE PARTNERS. ALL RIGHTS Reserved
         </div>
-        <a href="#" onClick={scrollTop}>
+        <a href="#" onClick={scrollTop} className="topButton">
         <span className="homeButton">
           TOP
           <img src={upArrow} className="upper-arrow"/>

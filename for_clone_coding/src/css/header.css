@@ -20,3 +20,12 @@
   font-weight: 700;
   font-family: 'Red Hat Display', sans-serif;
 }
+
+@media(max-width:767px) {
+  .firstElement h1{
+    font-size: 29px;
+  }
+  .firstElement{
+    padding: 0px;
+  }
+}

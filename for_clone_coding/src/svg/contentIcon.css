@@ -1,0 +1,43 @@
+
+.affairs-cls-1,.affairs-cls-4{fill:#fff}
+.affairs-cls-1{stroke:#142040}
+.affairs-cls-1,.affairs-cls-2,.affairs-cls-3,.affairs-cls-4,.affairs-cls-5{stroke-linecap:round;stroke-linejoin:round}
+.affairs-cls-2{fill:#cbddff}
+.affairs-cls-2,.affairs-cls-3,.affairs-cls-4,.affairs-cls-5{stroke:#333}
+.affairs-cls-3{fill:none}
+.affairs-cls-5{fill:#d2c9f2}
+
+
+.finance-cls-2{fill:#f2f2f2}
+.finance-cls-2,.finance-cls-3,.finance-cls-4,.finance-cls-5{
+  stroke:#333;stroke-linecap:round;stroke-linejoin:round
+}
+.finance-cls-3{fill:none}
+.finance-cls-4{fill:#fff}
+.finance-cls-5{fill:#d2c9f2}
+
+.funds-cls-1,.funds-cls-2{
+  fill:#fff;stroke:#333;stroke-linecap:round;stroke-linejoin:round
+}
+.funds-cls-2{fill:#d2c9f2}
+
+.accounting-cls-2,.accounting-cls-3{
+  fill:none;stroke:#333;stroke-linecap:round;stroke-linejoin:round
+}
+.accounting-cls-3{fill:#fff}
+
+.sizeSVG{
+  width: 64px;
+  height: 64px;
+}
+@media(max-width:768px){
+  .sizeSVG{
+    width:48px;
+    height:48px;
+    position: absolute;
+    top:20px;
+    left:20px;
+   
+  }
+
+}
